@@ -6,75 +6,106 @@
     src: url(/assets/fonts/Raleway-VariableFont_wght.ttf) format('truetype');
 }
 
+html {
+    width: 1500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     width: 1160px;
+    height: 2000px;
     background-color: #782221;
-    margin: 10%;
+    border: solid 1px;
+    border-color: black;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
 }
 
 header {
+    box-shadow: black;
+    width: 100%;
+    height: 40%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+
+
+
+
+
 }
 
-img {
-    border-radius: 50%;
+header img {
+    border-radius: 70%;
+    border: solid 1px;
+    filter: drop-shadow(10px 10px 10px black);
+
+
+
 }
 
-h1 {
+header h1 {
     font-family: "Lato";
+
 }
 
 nav {
     background-color: #2c1d27;
     color: white;
-    display: flex;
-    justify-content: center;
-}
-
-strong {
-    font-family: "Lato";
-}
-
-
-
-main {
-    background-color: #782221;
-}
-
-section {
-
-    display: flex;
-    justify-content: flex-start;
-    justify-content: space-between;
-
-}
-
-p {
-    background-color: #782221;
-    color: white;
-}
-
-p {
-    background-color: white;
-    color: black;
-
-}
-
-strong {
-    background-color: #dbc2a4;
-}
-
-footer {
-    background-color: #782221;
+    width: 100%;
+    height: 5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
+}
 
+main {
+    background-color: white;
+    width: 70%;
+    height: 45%;
+    display: flex;
+
+
+}
+
+aside {
+
+    background-color: #782221;
+    width: 30%;
+    height: 45%;
+}
+
+aside div article p {
+    text-indent: 30%;
+}
+
+strong {
+    background-color: #dbc2a4;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #782221;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+p {
+    margin-left: 10px;
 }
